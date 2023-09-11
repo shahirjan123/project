@@ -1,8 +1,6 @@
 from django.db import models
 
 
-# Create your models here.
-
 class ContactUs(models.Model):
     title = models.CharField(max_length=300, verbose_name='عنوان')
     email = models.EmailField(max_length=300, verbose_name='ایمیل')
@@ -19,6 +17,5 @@ class ContactUs(models.Model):
     def __str__(self):
         return self.title
 
-
 class UserProfile(models.Model):
-    image = models.ImageField(upload_to='images')
+    image = models.ImageField(upload_to='images/products')

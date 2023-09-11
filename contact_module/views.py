@@ -1,8 +1,6 @@
 from django.views.generic import ListView
-
 from .forms import ContactUsModelForm
 from django.views.generic.edit import CreateView
-
 from .models import UserProfile
 
 
