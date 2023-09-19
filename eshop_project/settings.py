@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'contact_module',
     'account_module',
     'site_module',
+    'order_module',
     'article_module',
     'polls',
     'user_panel_module',
